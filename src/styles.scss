@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+// @import "~font-awesome/css/font-awesome.css";
+$primary-color:#2947AA;
+$secondary-color:#FFFFFF;
+$success-color:#92C17B;
+$failure-color:#E0B1AE;
+$text-color:#969696;
+$heading-color:#3A3A3A;
+$white-color:#FFFFFF;
+$light-gray-color:#FAFAFA;
+
+body{
+    padding:5px;
+
+}
+.icon{
+
+    color: $primary-color;
+    background-color: $light-gray-color;
+}
+.card__wrapper
+{
+    display:flex;
+}
+.card{
+
+    color:$text-color;
+}
+.card:hover
+{
+    
+    
+    color:$white-color;
+    background-color: $primary-color;
+    cursor: pointer;
+}
